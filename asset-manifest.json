@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b973e66d.css",
+    "main.js": "/static/js/main.bb0b03cd.js",
+    "static/media/linux.png": "/static/media/linux.473b5b1180d740ee9dbd.png",
+    "static/media/pfp.png": "/static/media/pfp.9937555bea449bdbb1fc.png",
+    "static/media/bouncy.jpg": "/static/media/bouncy.c1f2b38bc8b1b05952b5.jpg",
+    "static/media/reactjs.png": "/static/media/reactjs.81ed438b18e24116794d.png",
+    "static/media/python.png": "/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/unity.png": "/static/media/unity.b196c776e313b0a0c14f.png",
+    "static/media/arduino.jpg": "/static/media/arduino.bf3214433145e824f162.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.5aede89d4d192bd7b979.jpg",
+    "static/media/cplusplus.png": "/static/media/cplusplus.64f637357bce0ccc8384.png",
+    "static/media/map.jpg": "/static/media/map.dd645e54847c6bd9c56f.jpg",
+    "static/media/tictac.jpg": "/static/media/tictac.90259d5ba66479bb80b5.jpg",
+    "static/media/site.jpg": "/static/media/site.68f0555252827fa1943d.jpg",
+    "static/media/cprogram.png": "/static/media/cprogram.5bdf0656095cb4d93d34.png",
+    "index.html": "/index.html",
+    "main.b973e66d.css.map": "/static/css/main.b973e66d.css.map",
+    "main.bb0b03cd.js.map": "/static/js/main.bb0b03cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b973e66d.css",
+    "static/js/main.bb0b03cd.js"
+  ]
+}
