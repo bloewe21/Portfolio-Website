@@ -1,6 +1,8 @@
 import React from 'react'
-import amongfort from '../assets/amongfort.jpg'
-import drmario from '../assets/drmario.jpg'
+import ttt from '../assets/tictac.jpg'
+import site from '../assets/site.jpg'
+import arduino from '../assets/arduino.jpg'
+import bouncy from '../assets/bouncy.jpg'
 
 const Projects = () => {
   return (
@@ -16,7 +18,7 @@ const Projects = () => {
             {/*Container*/}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 {/*Grid Item*/}
-                <div style={{backgroundImage: `url(${amongfort})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${site})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <p className='text-2xl font-bold text-white tracking-wider text-center'>
@@ -26,12 +28,7 @@ const Projects = () => {
                             The website you're on right now!
                         </p>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="/">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Portfolio-Website">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>
@@ -41,7 +38,7 @@ const Projects = () => {
                 </div>
                 {/*End of Grid Item*/}
                 {/*Grid Item*/}
-                <div style={{backgroundImage: `url(${drmario})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${ttt})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <p className='text-2xl font-bold text-white tracking-wider'>
@@ -51,14 +48,14 @@ const Projects = () => {
                             Tic Tac Toe with an unbeatable Artificial Intelligence
                         </p>
                         <div className='pt-2 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="/">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Tic-Tac-Toe-AI">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/c_QTkdanAUQ">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                         </div>
@@ -66,24 +63,24 @@ const Projects = () => {
                 </div>
                 {/*End of Grid Item*/}
                 {/*Grid Item*/}
-                <div style={{backgroundImage: `url(${amongfort})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${arduino})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <p className='text-2xl font-bold text-white tracking-wider text-center'>
-                            React JS Website
+                            Morse Code
                         </p>
                         <p className='text-center'>
-                            The website you're on right now!
+                            Arduino program that translates user input into light
                         </p>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
-                                </button>
-                            </a>
-                            <a href="/">
+                        <div className='pt-2 text-center'>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Morse-Code-Arduino">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/shorts/06f5Xu6K09A">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                         </div>
@@ -91,21 +88,24 @@ const Projects = () => {
                 </div>
                 {/*End of Grid Item*/}
                 {/*Grid Item*/}
-                <div style={{backgroundImage: `url(${drmario})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${bouncy})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
+                    <p className='text-2xl font-bold text-white tracking-wider'>
+                            Ball Simulation
+                        </p>
+                        <p className='text-center'>
+                            Simulation of bouncy balls in a box
+                        </p>
                         <div className='pt-8 text-center'>
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
+                                    Code
                                 </button>
                             </a>
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Code
+                                    Demo
                                 </button>
                             </a>
                         </div>
