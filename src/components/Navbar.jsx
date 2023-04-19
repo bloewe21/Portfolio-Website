@@ -3,6 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import pfp from '../assets/pfp.png'
 import {Link} from 'react-scroll'
+import resumepdf from '../assets/Brian Loewe - 2023 Resume.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -15,7 +16,7 @@ const Navbar = () => {
 
         {/*menu*/}
         <ul className='hidden md:flex'>
-            <a target="_blank" rel="noopener noreferrer" href="/">
+            <a target="_blank" rel="noopener noreferrer" href={resumepdf}>
                 <li>
                     <p className='text-blue-500 font-bold'>Resume</p>
                 </li>
@@ -53,7 +54,7 @@ const Navbar = () => {
         </div>
         {/*mobile menu*/}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <a target="_blank" rel="noopener noreferrer" href="/">
+            <a target="_blank" rel="noopener noreferrer" href={resumepdf}>
                 <li>
                     <p className='text-blue-500 font-bold py-4 text-4xl'>Resume</p>
                 </li>

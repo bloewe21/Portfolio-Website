@@ -3,6 +3,8 @@ import ttt from '../assets/tictac.jpg'
 import site from '../assets/site.jpg'
 import arduino from '../assets/arduino.jpg'
 import bouncy from '../assets/bouncy.jpg'
+import discord from '../assets/discord.jpg'
+import frontier from '../assets/frontier.png'
 
 const Projects = () => {
   return (
@@ -31,6 +33,56 @@ const Projects = () => {
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Portfolio-Website">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*End of Grid Item*/}
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${discord})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                            Discord Clone
+                        </p>
+                        <p className='text-center'>
+                            A simple Discord clone made for FullyHacks 2023
+                        </p>
+                        <div className='pt-2 text-center'>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/SValls2023/GroupStudy">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://group-study-w7iv-1svfrqpn0-svalls2023.vercel.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*End of Grid Item*/}
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${frontier})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                            Frozen Frontier
+                        </p>
+                        <p className='text-center'>
+                            A 2D game made with Unity for Mini Jam 130; I worked on coding, art/animation, and music
+                        </p>
+                        <div className='pt-2 text-center'>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/shinjin-santhakumar/LunarJam2023/tree/mewyo">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://funnymewy.itch.io/frozen-frontier">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                         </div>
@@ -98,7 +150,7 @@ const Projects = () => {
                             Simulation of bouncy balls in a box
                         </p>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Bouncing-Balls-Pygame">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>
