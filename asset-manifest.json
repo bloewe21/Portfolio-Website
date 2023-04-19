@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.b973e66d.css",
-    "main.js": "/Portfolio-Website/static/js/main.48ccf843.js",
+    "main.js": "/Portfolio-Website/static/js/main.5f0d75ac.js",
     "static/media/linux.png": "/Portfolio-Website/static/media/linux.473b5b1180d740ee9dbd.png",
     "static/media/pfp.png": "/Portfolio-Website/static/media/pfp.9937555bea449bdbb1fc.png",
+    "static/media/Brian Loewe - 2023 Resume.pdf": "/Portfolio-Website/static/media/Brian Loewe - 2023 Resume.c815c5ab5943d7bf5be1.pdf",
     "static/media/bouncy.jpg": "/Portfolio-Website/static/media/bouncy.c1f2b38bc8b1b05952b5.jpg",
     "static/media/reactjs.png": "/Portfolio-Website/static/media/reactjs.81ed438b18e24116794d.png",
     "static/media/python.png": "/Portfolio-Website/static/media/python.dea924d737bb84eb9ce3.png",
@@ -12,15 +13,17 @@
     "static/media/bg2.jpg": "/Portfolio-Website/static/media/bg2.5aede89d4d192bd7b979.jpg",
     "static/media/cplusplus.png": "/Portfolio-Website/static/media/cplusplus.64f637357bce0ccc8384.png",
     "static/media/map.jpg": "/Portfolio-Website/static/media/map.dd645e54847c6bd9c56f.jpg",
+    "static/media/frontier.png": "/Portfolio-Website/static/media/frontier.6fed9b7c1192ce6198c8.png",
+    "static/media/discord.jpg": "/Portfolio-Website/static/media/discord.35421b300b662f8b0e8b.jpg",
     "static/media/tictac.jpg": "/Portfolio-Website/static/media/tictac.90259d5ba66479bb80b5.jpg",
     "static/media/site.jpg": "/Portfolio-Website/static/media/site.68f0555252827fa1943d.jpg",
     "static/media/cprogram.png": "/Portfolio-Website/static/media/cprogram.5bdf0656095cb4d93d34.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.b973e66d.css.map": "/Portfolio-Website/static/css/main.b973e66d.css.map",
-    "main.48ccf843.js.map": "/Portfolio-Website/static/js/main.48ccf843.js.map"
+    "main.5f0d75ac.js.map": "/Portfolio-Website/static/js/main.5f0d75ac.js.map"
   },
   "entrypoints": [
     "static/css/main.b973e66d.css",
-    "static/js/main.48ccf843.js"
+    "static/js/main.5f0d75ac.js"
   ]
 }
