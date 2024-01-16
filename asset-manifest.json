@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.b973e66d.css",
-    "main.js": "/Portfolio-Website/static/js/main.2d5df8b8.js",
+    "main.js": "/Portfolio-Website/static/js/main.ba28fd7d.js",
     "static/media/linux.png": "/Portfolio-Website/static/media/linux.473b5b1180d740ee9dbd.png",
     "static/media/pfp.png": "/Portfolio-Website/static/media/pfp.9937555bea449bdbb1fc.png",
     "static/media/bouncy.jpg": "/Portfolio-Website/static/media/bouncy.c1f2b38bc8b1b05952b5.jpg",
@@ -9,21 +9,22 @@
     "static/media/python.png": "/Portfolio-Website/static/media/python.dea924d737bb84eb9ce3.png",
     "static/media/unity.png": "/Portfolio-Website/static/media/unity.b196c776e313b0a0c14f.png",
     "static/media/arduino.jpg": "/Portfolio-Website/static/media/arduino.bf3214433145e824f162.jpg",
+    "static/media/Brian Loewe - Resume 2023.pdf": "/Portfolio-Website/static/media/Brian Loewe - Resume 2023.aac830c00780b6d62811.pdf",
     "static/media/bg2.jpg": "/Portfolio-Website/static/media/bg2.5aede89d4d192bd7b979.jpg",
-    "static/media/Brian Loewe - 2023 Resume.pdf": "/Portfolio-Website/static/media/Brian Loewe - 2023 Resume.84e3bf3085aa7bb79230.pdf",
     "static/media/cplusplus.png": "/Portfolio-Website/static/media/cplusplus.64f637357bce0ccc8384.png",
     "static/media/map.jpg": "/Portfolio-Website/static/media/map.dd645e54847c6bd9c56f.jpg",
     "static/media/frontier.png": "/Portfolio-Website/static/media/frontier.6fed9b7c1192ce6198c8.png",
     "static/media/discord.jpg": "/Portfolio-Website/static/media/discord.35421b300b662f8b0e8b.jpg",
     "static/media/tictac.jpg": "/Portfolio-Website/static/media/tictac.90259d5ba66479bb80b5.jpg",
     "static/media/site.jpg": "/Portfolio-Website/static/media/site.68f0555252827fa1943d.jpg",
+    "static/media/swiftshot.jpg": "/Portfolio-Website/static/media/swiftshot.c663f02722c6c6809b07.jpg",
     "static/media/cprogram.png": "/Portfolio-Website/static/media/cprogram.5bdf0656095cb4d93d34.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.b973e66d.css.map": "/Portfolio-Website/static/css/main.b973e66d.css.map",
-    "main.2d5df8b8.js.map": "/Portfolio-Website/static/js/main.2d5df8b8.js.map"
+    "main.ba28fd7d.js.map": "/Portfolio-Website/static/js/main.ba28fd7d.js.map"
   },
   "entrypoints": [
     "static/css/main.b973e66d.css",
-    "static/js/main.2d5df8b8.js"
+    "static/js/main.ba28fd7d.js"
   ]
 }
