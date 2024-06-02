@@ -15,7 +15,7 @@ const Home = () => {
                 Brian Loewe
             </h2>
             <h1 className='text-white p-2 py-4 max-w-[700px] rounded-lg bg-gray-300 bg-opacity-20 mx-auto font-bold text-xl'>
-                I am a 4th year student at California State Univeristy, Fullerton studying for a B.S. in Computer Science, expecting to graduate in Spring 2023. I'm currently interested in a job or internship for Software Programming or a similar position! This page provides details on me, my skills and certain projects I've worked on.
+            I am a 22 y/o graduate from California State University, Fullerton with a B.S. in Computer Science. I'm currently interested in an internship, part-time job or full-time job as a software engineer/programmer or similar position! This page provides details on me, my skills and certain projects I've worked on.
             </h1>
             <div className='pt-4'>
             <Link to='projects' smooth={true} offset={-80} duration-500>

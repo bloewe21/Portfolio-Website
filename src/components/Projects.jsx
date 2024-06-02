@@ -5,6 +5,7 @@ import arduino from '../assets/arduino.jpg'
 import bouncy from '../assets/bouncy.jpg'
 import discord from '../assets/discord.jpg'
 import frontier from '../assets/frontier.png'
+import swiftshot from '../assets/swiftshot.jpg'
 
 const Projects = () => {
   return (
@@ -15,7 +16,7 @@ const Projects = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-blue-500 pt-1'>Projects</p>
             </div>
             <div className='justify-center mx-auto pb-10'>
-                <h1 className='p-1 bg-gray-300 bg-opacity-20 rounded-lg mx-auto flex justify-center font-bold text-lg'>Some projects that I've contributed a lot to:</h1>
+                <h1 className='p-1 bg-gray-300 bg-opacity-20 rounded-lg mx-auto flex justify-center font-bold text-lg'>Here are examples of some of my projects:</h1>
             </div>
             {/*Container*/}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -33,6 +34,31 @@ const Projects = () => {
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Portfolio-Website">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*End of Grid Item*/}
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${swiftshot})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                            Swiftshot
+                        </p>
+                        <p className='text-center'>
+                            Unity game developed entirely by me for 3 months
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/SwiftshotGame">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://funnymewy.itch.io/swiftshot">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                         </div>
@@ -153,11 +179,6 @@ const Projects = () => {
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Bouncing-Balls-Pygame">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
-                                </button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo
                                 </button>
                             </a>
                         </div>

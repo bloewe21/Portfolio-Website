@@ -17,6 +17,8 @@ function App() {
         <div className="h-[100px]">
         </div>
         <Skills />
+        <div className="h-[100px]">
+        </div>
         <Projects />
         <Contact />
       </div>
