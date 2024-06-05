@@ -31,7 +31,7 @@ const About = () => {
                         </p>
                     </div>
                     <div>
-                        <img className='rounded-lg' src={map} alt="Logo Image" style={{width: '1000px'}}/>
+                        <img className='rounded-lg' src={map} alt="Logo" style={{width: '1000px'}}/>
                     </div>
                 </div>
         </div>
