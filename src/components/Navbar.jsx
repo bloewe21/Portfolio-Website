@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
-import pfp from '../assets/pfp.png'
+import pfp from '../assets/dapperdos.png'
 import {Link} from 'react-scroll'
 /*import resumepdf from '../assets/Brian Loewe - 2023 Resume.pdf'*/
 /*import resumepdf2 from '../assets/Brian Loewe - Resume 2024.pdf'*/
