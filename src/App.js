@@ -1,10 +1,10 @@
-import About from "./components/About";
+//import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import drmario from './assets/bg2.jpg'
+import drmario from './assets/bg3.jpg'
 
 
 function App() {
@@ -13,9 +13,11 @@ function App() {
       <Navbar />
       <div style={{ backgroundImage: `url(${drmario})` }}>
         <Home />
+        {/*
         <About />
         <div className="h-[100px]">
         </div>
+        */}
         <Skills />
         <div className="h-[100px]">
         </div>

@@ -5,13 +5,13 @@ import pfp from '../assets/pfp.png'
 import {Link} from 'react-scroll'
 /*import resumepdf from '../assets/Brian Loewe - 2023 Resume.pdf'*/
 /*import resumepdf2 from '../assets/Brian Loewe - Resume 2024.pdf'*/
-import resumepdf2 from '../assets/Brian_Loewe_Resume2024.pdf'
+import resumepdf2 from '../assets/Brian_Loewe_Resume.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#110b4d] text-gray-300 z-50'>
         <div>
             <img src={pfp} alt="Logo" style={{width: '50px'}}/>
         </div>
@@ -28,11 +28,13 @@ const Navbar = () => {
                     Home
                 </Link>
             </li>
+            {/*
             <li>
                 <Link to='about' offset={-110} smooth={true} duration-500>
                     About
                 </Link>
             </li>
+            */}
             <li>
                 <Link to='skills' offset={-110} smooth={true} duration-500>
                     Skills
