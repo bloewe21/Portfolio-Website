@@ -7,7 +7,7 @@ const Contact = () => {
             <div className='space-y-5 py-5'>
                 <p className='font-bold text-4xl inline border-b-4 border-blue-500 '>Contact</p>
                 <div>
-                <p className='p-2 bg-gray-300 bg-opacity-20 rounded-lg mx-auto justify-center font-bold inline'>Submit the form below or shoot me an email - 
+                <p className='p-2 bg-gray-300 bg-opacity-20 rounded-lg mx-auto justify-center font-bold inline'>Please fill out the form below to reach out, or send me an email - 
                   <a target="_blank" rel="noopener noreferrer"href="mailto:brianloewe21@gmail.com">
                     <span className='border-b-2 border-blue-400 text-blue-400'> brianloewe21@gmail.com</span>
                   </a>

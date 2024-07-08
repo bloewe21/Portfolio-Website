@@ -21,7 +21,7 @@ const Skills = () => {
                 <p className='text-4xl font-bold border-b-4 inline border-blue-500 text-center'>Skills</p>
             </div>
             <div className='justify-center mx-auto py-4'>
-                <h1 className='p-1 bg-gray-300 bg-opacity-20 rounded-lg mx-auto flex justify-center text-lg'>A list of technologies I've worked with:</h1>
+                <h1 className='p-1 bg-gray-300 bg-opacity-20 rounded-lg mx-auto flex justify-center text-lg'>A list of technologies in which I'm proficient:</h1>
             </div>
             {/*Boxes*/}
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
