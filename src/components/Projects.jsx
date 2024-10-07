@@ -6,6 +6,7 @@ import bouncy from '../assets/bouncy.jpg'
 import discord from '../assets/discord.jpg'
 import frontier from '../assets/frontier.png'
 import swiftshot from '../assets/swiftshot.jpg'
+import feathers from '../assets/feathers.jpg'
 
 const Projects = () => {
   return (
@@ -34,6 +35,31 @@ const Projects = () => {
                             <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/Portfolio-Website">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/*End of Grid Item*/}
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${feathers})`}} className='shadow-lg shadow-blue-500 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/*Hover Effects*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <p className='text-2xl font-bold text-white tracking-wider text-center'>
+                            A Pair of Feathers Squawk Together
+                        </p>
+                        <p className='text-center'>
+                            Unity game published to Steam; solo developer over 5 months
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/bloewe21/APairOfFeathersGame">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/3075170/A_Pair_of_Feathers_Squawk_Together/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
                                 </button>
                             </a>
                         </div>
