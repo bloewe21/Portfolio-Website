@@ -5,7 +5,7 @@ import pfp from '../assets/dapperdos.png'
 import {Link} from 'react-scroll'
 /*import resumepdf from '../assets/Brian Loewe - 2023 Resume.pdf'*/
 /*import resumepdf2 from '../assets/Brian Loewe - Resume 2024.pdf'*/
-import resumepdf2 from '../assets/Brian_Loewe_Resume.pdf'
+import resumepdf2 from '../assets/Brian_Loewe_resume.pdf'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
